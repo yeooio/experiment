@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.py[cod]
+logs/
+dataset_results/
+summary*.json
+*.tmp
+*.lock
+.DS_Store
+Thumbs.db

@@ -1,0 +1,12 @@
+{
+  "fingerprint": "5124ba37aee8f43e9250f2d57aa8a80faa27bbae0823f4aa245073c4bce124bd",
+  "checks": 704,
+  "models": [
+    "LSTM",
+    "CNN-LSTM",
+    "MS-AgentNet",
+    "Transformer",
+    "CNN-Transformer"
+  ],
+  "device": "cpu"
+}
