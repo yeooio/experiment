@@ -1,0 +1,2 @@
+# Preserve protocol hashes through clone on Windows and Linux.
+* -text

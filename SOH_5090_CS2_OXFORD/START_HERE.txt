@@ -1,0 +1,13 @@
+5090 ONLY: THREE parallel GPU workers, 4864 tasks total.
+Lane cs2_other: CS2 LSTM/CNN-LSTM/MS-AgentNet/CNN-Transformer (1664 tasks).
+Lane oxford: all five Oxford models (2432 tasks).
+Lane cs2_transformer: only CS2 Transformer (768 tasks).
+In this directory run using your existing working GPU Python:
+  /root/miniconda3/bin/python start.py
+No automatic dependency installation. Do not run old training jobs at the same time.
+See logs/5090.log and logs/cs2_other.log, logs/oxford.log, logs/cs2_transformer.log.
+Results are in results/5090/cs2 and results/5090/oxford (unchanged layout).
+All inputs and the common manifest are retained solely for a consistent protocol fingerprint;
+MIT and CX2 are NOT in this package's training queue.
+Seed 1 only, 100 and 1000 epochs, one run per combination.
+Preserve old results separately. Do not import old 500-epoch checkpoints here.
